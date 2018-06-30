@@ -1,8 +1,8 @@
 angular.module('video-player')
 
   .component('search', {
-    // bindings: {
-    //   testInput:'@'
-    // },
+    bindings: {
+      result: '<'
+    },
     templateUrl: 'src/templates/search.html'
   });
